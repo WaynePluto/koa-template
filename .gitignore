@@ -1,0 +1,9 @@
+node_modules
+pnpm-lock.yaml
+yarn.lock
+.DS_Store
+*.local
+dist
+dist-ssr
+*/.vscode/chrome
+.env.dev
