@@ -1,10 +1,8 @@
 import { z } from 'zod'
+import { BaseModel } from './base'
 
-export interface TemplateModel {
-  id: number
-  uuid: string
+export interface TemplateModel extends BaseModel {
   name: string
-  num: number
 }
 
 export const createTemplateValidator = z.object({
